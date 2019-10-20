@@ -1,10 +1,10 @@
 ### Create a developper oauth ###
 *  github.com -> Settings ->  Developer settings -> oauth apps
 
-Application name: 
-Homepage URL: The url than you come from
-Application description: 
-Authorization callback URL: github will redirect to this url with a code=xxx as parameter 
+- Application name: 
+- Homepage URL: The url than you come from
+- Application description: 
+- Authorization callback URL: github will redirect to this url with a code=xxx as parameter 
 
 ### Check you rights ###
 
@@ -17,6 +17,7 @@ Authorization callback URL: github will redirect to this url with a code=xxx as 
 ### In the navigator tests the url ###
 
 * curl --user 'xxxxxxxxxxx'  --url 'https://api.github.com/authorizations' --data '{"client_id": "xxxxxxxxxxxxxxx","client_secret": "xxxxxxxxxxxxxxxxxxx"'
+
 Enter host password for user 'xxxxxxxxxxxxx':
 {
   "id": xxxxxxxxxxx,
