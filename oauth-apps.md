@@ -1,6 +1,8 @@
 ### Create a developper oauth ###
 
-github.com -> Settings ->  Developer settings -> oauth apps
+* See documentation here: https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/
+
+* github.com -> Settings ->  Developer settings -> oauth apps
 
 - Application name: 
 - Homepage URL: The url than you come from
