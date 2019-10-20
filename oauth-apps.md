@@ -13,7 +13,7 @@ github.com -> Settings ->  Developer settings -> oauth apps
 
 ### In the navigator tests the url => Then validate if it is necessary ###
 
-- curl --user 'xxxxxx'  https://github.com/login/oauth/authorize?client_id=xxxxxxxxxxxxxx1&client_secret=xxxxxxxxxxxxxxxxxxx
+- https://github.com/login/oauth/authorize?client_id=xxxxxxxxxxxxxx1&client_secret=xxxxxxxxxxxxxxxxxxx
 
 ### In the navigator  check you rights the url ###
 
