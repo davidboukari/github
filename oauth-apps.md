@@ -15,7 +15,7 @@ github.com -> Settings ->  Developer settings -> oauth apps
 
 - curl --user 'xxxxxx'  https://github.com/login/oauth/authorize?client_id=xxxxxxxxxxxxxx1&client_secret=xxxxxxxxxxxxxxxxxxx
 
-### In the navigator tests the url ###
+### In the navigator  check you rights the url ###
 
 * curl --user 'xxxxxxxxxxx'  --url 'https://api.github.com/authorizations' --data '{"client_id": "xxxxxxxxxxxxxxx","client_secret": "xxxxxxxxxxxxxxxxxxx"'
 
