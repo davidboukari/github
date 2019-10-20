@@ -1,26 +1,22 @@
-#################################################################
-# Create a developper oauth
-#################################################################
-github.com -> Settings ->  Developer settings -> oauth apps
+### Create a developper oauth ###
+*  github.com -> Settings ->  Developer settings -> oauth apps
+
 Application name: 
 Homepage URL: The url than you come from
 Application description: 
 Authorization callback URL: github will redirect to this url with a code=xxx as parameter 
 
-#################################################################
-# Check you rights
-#################################################################
-- curl --user '<username>'  --url 'https://api.github.com/authorizations'
+### Check you rights ###
 
-#################################################################
-# In the navigator tests the url => Then validate if it is necessary
-#################################################################
+* curl --user '<username>'  --url 'https://api.github.com/authorizations'
+
+### In the navigator tests the url => Then validate if it is necessary ###
+
 - https://github.com/login/oauth/authorize?client_id=xxxxxxxxxxxxxx1&client_secret=xxxxxxxxxxxxxxxxxxx
 
-#################################################################
-# In the navigator tests the url 
-#################################################################
-curl --user 'xxxxxxxxxxx'  --url 'https://api.github.com/authorizations' --data '{"client_id": "xxxxxxxxxxxxxxx","client_secret": "xxxxxxxxxxxxxxxxxxx"'
+### In the navigator tests the url ###
+
+* curl --user 'xxxxxxxxxxx'  --url 'https://api.github.com/authorizations' --data '{"client_id": "xxxxxxxxxxxxxxx","client_secret": "xxxxxxxxxxxxxxxxxxx"'
 Enter host password for user 'xxxxxxxxxxxxx':
 {
   "id": xxxxxxxxxxx,
